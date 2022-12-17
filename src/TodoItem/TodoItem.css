@@ -1,0 +1,27 @@
+.TodoItem{
+    place-items: center;
+    justify-content: space-between;
+    background: rgb(255, 255, 255,0.3);
+    border-radius: 19px;
+     display: inline-flex;
+    width: 80%;
+    height: 100%;
+    margin: 5px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    list-style: none;
+    color: rgba(17, 11, 11, 0.711);
+}
+.TodoItem-spam-left{
+    margin-right: 5px;
+}
+.TodoItem-span-rigth{
+    margin-left: 5px;
+}
+.Icon-check--active{
+    color: chartreuse;
+}
+
+.TodoItem-p-complete{
+    text-decoration: line-through;
+}

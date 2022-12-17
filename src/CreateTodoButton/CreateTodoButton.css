@@ -1,0 +1,28 @@
+.CreateTodoButton {
+	box-shadow: 4px 5px 10px rgba(66,66,66,.35);
+	background-color: #ffffff83;
+	border-radius:15px;
+ font-family: 'Montserrat', sans-serif;;
+	
+	cursor:pointer;
+	color:#000000a9;
+	font-family:Arial;
+	font-size:10px;
+    border-color: rgba(66,66,66,.0);
+    margin-top: 5px;
+	width: 50px;
+	height: 35px;
+	
+	
+	text-decoration:none;
+	
+}
+.CreateTodoButton:hover {
+    background-color:rgb(173, 216, 230,.04);
+}
+.CreateTodoButton:active {
+	position:relative;
+	top:1px;
+}
+
+        

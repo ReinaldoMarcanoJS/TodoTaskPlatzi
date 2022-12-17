@@ -1,0 +1,26 @@
+.TodoSearch{
+    position: relative;
+    padding: 8px;
+    width: 80%;
+     font-size: 15px;
+     border-width: 0px;
+     border-color: #CCCCCC;
+     background-color: #FFFFFF;
+     color: #000000;
+     border-style: solid;
+     border-radius: 19px;
+     box-shadow: 4px 5px 10px rgba(66,66,66,.35);
+     margin-bottom: 5px;
+     font-family: 'Montserrat', sans-serif;
+     border: none;
+
+}
+
+.Search-Section{
+    padding: 10px;
+}
+
+.TodoSearch:hover {
+    outline:none;
+    background-color: rgb(255, 127, 80,0.8);
+}

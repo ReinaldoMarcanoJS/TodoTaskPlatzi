@@ -1,0 +1,32 @@
+.Your-Task-p{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px 0px 0px;
+    width: auto;
+    font-size: 22px;
+    font-weight: 700;
+    list-style: none;
+    text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
+  
+}
+.Your-Task-p:hover{
+    animation-name: agrandar-Your-Task;
+    animation-duration: 0.7s;
+    animation-iteration-count:1; 
+    animation-direction: normal;
+   animation-fill-mode: forwards;
+
+}
+
+
+
+@keyframes agrandar-Your-Task{
+    from{
+        font-size: 22px;
+        
+    }
+
+    to{
+        font-size: 30px;
+    }
+}

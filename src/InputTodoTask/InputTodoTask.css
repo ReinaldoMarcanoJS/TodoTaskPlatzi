@@ -1,0 +1,23 @@
+.InputTodoTask{
+     
+     font-size: 13px;
+     border-width: 0px;
+     border-color:#ffffff83;
+     background-color: #ffffff83;
+     color: #000000;
+     border-style: solid;
+     border-radius: 19px;
+     box-shadow: 4px 5px 10px rgba(66,66,66,.35);
+     padding: 10px 0px;
+     margin: 30px 5px;
+     font-family: 'Montserrat', sans-serif;
+     border: none;
+
+}
+
+.InputTodoTask:hover {
+    outline:none;
+    background-color: rgb(255, 127, 80,0.8);
+}
+
+

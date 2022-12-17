@@ -1,0 +1,40 @@
+.Img-todo {
+    margin-top: 20px;
+    width: 110px;
+    height: 180px;
+    
+}
+
+.DivTodoImg {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.Img-todo:hover{
+    animation-name: agrandar-img;
+    animation-duration: 0.7s;
+    animation-iteration-count:1; 
+    animation-direction: normal;
+   animation-fill-mode: forwards;
+   position: absolute;
+}
+
+
+@keyframes agrandar-img{
+    from{
+        width: 110px;
+        height: 180px;
+        margin-top: 20px;
+        
+    }
+
+    to{
+        width: 125px;
+         height: 200px;
+         margin-top: 10px;
+    }
+}
+
