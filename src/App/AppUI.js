@@ -61,7 +61,7 @@ function AppUI() {
                             onDelete={() => value.deleteTodo(todo.text)}
                              />
                         ))}
-                        </TodoList >
+                        </TodoList>
                     )
                     }
                 </TodoContext.Consumer>
